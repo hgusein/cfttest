@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/category_security" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkbox_certificate_no_validation"
+            android:summary="@string/summary_certificate_no_validation"
+            android:title="@string/title_certificate_no_validation" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_request_parameters" >
+        <EditTextPreference
+            android:defaultValue="1.1"
+            android:dialogTitle="@string/dialog_title_request_parameters_version"
+            android:key="edittext_request_parameters_version"
+            android:summary="@string/summary_request_parameters_version"
+            android:title="@string/title_request_parameters_version" />
+
+        <ListPreference
+            android:defaultValue="https://demo.bankplus.ru/mobws/json/pointsList"
+            android:dialogTitle="@string/dialog_title_request_parameters_server"
+            android:entries="@array/entries_request_parameters_server"
+            android:entryValues="@array/entryvalues_request_parameters_server"
+            android:key="list_request_parameters_server"
+            android:summary="@string/summary_request_parameters_server"
+            android:title="@string/title_request_parameters_server" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_graph_settings" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkbox_graph_smooth"
+            android:summary="@string/summary_graph_smooth"
+            android:title="@string/title_graph_smooth" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

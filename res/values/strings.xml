@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CFTtest</string>
+    <string name="default_tv_text">TextView</string>
+    <string name="action_settings">Настройки</string>
+    <string name="button_start">Поехали</string>
+    <string name="edittext_hint">Количество точек</string>
+    <string name="category_security">Безопасность</string>
+    <string name="title_certificate_no_validation">Не проверять сертификат</string>
+    <string name="summary_certificate_no_validation">Позволяет использовать самоподписанные сертификаты</string>
+    <string name="category_request_parameters">Запрос</string>
+    <string name="dialog_title_request_parameters_version">Введите версию</string>
+    <string name="title_request_parameters_version">Версия протокола</string>
+    <string name="summary_request_parameters_version">Параметр запроса version</string>
+    <string name="title_request_parameters_server">Сервер</string>
+    <string name="summary_request_parameters_server">Источник данных</string>
+    <string name="dialog_title_request_parameters_server">Выбор сервера</string>
+    <string name="category_graph_settings">График</string>
+    <string name="title_graph_smooth">Сглаженная линия</string>
+    <string name="summary_graph_smooth">Использовать кубическую кривую Безье</string>
+    <string name="progress_request_task_connecting">Подключаемся&#8230;</string>
+    <string name="progress_request_task_downloading">Получение данных</string>
+    <string name="dialog_title_default">Сообщение</string>
+    <string name="dialog_msg_default">Возникла неизведанная ситуация.</string>
+    <string name="dialog_title_attention">Внимание</string>
+    <string name="dialog_title_server_message">Сервер вернул сообщение</string>
+    <string name="dialog_msg_task_aborted">Выполнение запроса отменено.</string>
+    <string name="dialog_title_error">Ошибка</string>
+    <string name="dialog_title_parse_error">Ошибка при разборе</string>
+    <string name="dialog_msg_response_empty">Сервер вернул пустой ответ.</string>
+    <string name="dialog_msg_trust_anchor_not_found">Невозможно подтвердить подлинность узла.</string>
+    <string name="dialog_msg_no_internet_connection">Невозможно получить данные. Проверьте подключение к сети.</string>
+    <string name="dialog_msg_json_format_exception">Сервер вернул данные, не соответсвующие требуемому формату.</string>
+    <string name="dialog_msg_encoding_exception">Кодировка полученных данных не соответсвует требуемой UTF-8.</string>
+    <string name="dialog_msg_number_format_exception">Невозможно распознать числовое значение.</string>
+    <string name="indicator_tab_list">Таблица</string>
+    <string name="indicator_tab_graph">График</string>
+    <string name="ok">Ок</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="cancel">Отмена</string>
+
+    <string-array name="entries_request_parameters_server">
+        <item name="work">Рабочий</item>
+        <item name="test">Тестовый</item>
+    </string-array>
+    <string-array name="entryvalues_request_parameters_server">
+        <item name="work">https://demo.bankplus.ru/mobws/json/pointsList</item>
+        <item name="test">https://controller-test.omskvodokanal.ru/json</item>
+    </string-array>
+
+    <string name="text_info">
+<![CDATA[
+    <h4>Требуется написать</h4>
+    <p>мобильное приложение для одной из платформ Android или iPhone (для обоих 
+    будет значительным плюсом), которое запрашивает у сервера определённое 
+    количество координат точек (x, y), а затем отображает полученный ответ в виде 
+    таблицы и графика.</p>
+  ]]>
+    </string>
+
+</resources>
